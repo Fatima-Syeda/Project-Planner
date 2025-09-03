@@ -1,0 +1,112 @@
+@import "tailwindcss";
+
+#app * {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background: #A64D79;
+  padding: 0 16px;
+}
+
+#app header {
+  background-color: #6A1E55;
+  margin: auto -30px;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 #6A1E55;
+}
+
+#app header h1 {
+  color: white;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+}
+
+#app footer {
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+}
+
+#app footer p {
+  color: #ccc;
+}
+
+#app .note {
+  background: #fff;
+  border-radius: 7px;
+  box-shadow: 0 2px 5px #6A1E55;
+  padding: 10px;
+  width: 240px;
+  margin: 1px;
+  float: left;
+}
+
+#app .note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  font-weight:bold;
+}
+
+#app .note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+#app .note button {
+  position: relative;
+  float: right;
+  margin-right: 0px;
+  color: #3B1C32;
+  border: none;
+  width: 20px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+}
+
+#app form {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #fff;
+  padding: 15px;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px #6A1E55;
+}
+
+#app form input,
+#app form textarea {
+  width: 100%;
+  border: none;
+  padding: 4px;
+  outline: none;
+  font-size: 1.2em;
+  font-family: inherit;
+  resize: none;
+}
+
+#app form button {
+  position: absolute;
+  right: 18px;
+  bottom: -18px;
+  background: #6A1E55;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  box-shadow: 0 1px 3px #6A1E55;
+  cursor: pointer;
+  outline: none;
+}
