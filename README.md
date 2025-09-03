@@ -2,9 +2,14 @@
 A simple and secure note-taking web app that allows users to manage their tasks efficiently.
 
 Features:
-User Authentication: Sign up or log in securely using Supabase authentication.
-Add & Delete Notes: Easily create, view, and remove notes.
-Sign Out: Securely log out of your account.
+<ul>
+  <li>User Authentication: Sign up or log in securely using Supabase authentication.</li>
+  <li>Add & Delete Notes: Easily create, view, and remove notes.</li>
+  <li>Sign Out: Securely log out of your account.</li>
+</ul>
+
+
+
 
 <h2>Images/ Features</h2>
 <img width="3839" height="1842" alt="image" src="https://github.com/user-attachments/assets/39280404-5c48-4a26-bb6c-3c6c5685e460" />
@@ -17,7 +22,7 @@ Sign Out: Securely log out of your account.
 <h2>Technologies Used</h2>
 <ul>
   <li>React.js</li>
-  <li>Node.js<li>
+  <li>Node.js</li>
   <li>JavaScript/HTML/CSS</li>
-  <li>Supabase<li>
+  <li>Supabase</li>
 </ul>
