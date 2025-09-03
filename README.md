@@ -19,5 +19,5 @@ Sign Out: Securely log out of your account.
   <li>React.js</li>
   <li>Node.js<li>
   <li>JavaScript/HTML/CSS</li>
-   <li>Supabase<li>
+  <li>Supabase<li>
 </ul>
